@@ -13,3 +13,14 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 
 - <b>VMware Workstation on Windows PC</b>
 - <b>[Elastic Cloud account](https://cloud.elastic.co/registration)</b>
+
+<h2>Tasks overview</h2>
+
+- Set up Elastic account
+- Install VMware  Workstation and create Kali Linux VM
+- Configure the Elastic Agent on the Linux VM to collect the logs and forward it to the SIEM.
+- Generate security events on the Kali VM.
+- Query to find the security events in the Elastic SIEM.
+- Create a Dashboard to visualize security events.
+- Create alerts for security events.
+
