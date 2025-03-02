@@ -48,7 +48,8 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 
 2. Search for “Elastic Defend” and click on it and install it. Follow the instructions on the integration page and click on "Install Elastic Agent" to install the agent on Kali linux VM that I created.
 
-<img width="1042" alt="Screenshot 2025-03-01 at 6 21 31 PM" src="https://github.com/user-attachments/assets/975cd1e8-a4b7-4463-9cee-444075910b33" />
+<img width="1413" alt="Elastic Cloud" src="https://github.com/user-attachments/assets/bd842033-002c-4f03-93d9-aaddb0460e58" />
+
 
 <img width="1131" alt="Kali Linux VM" src="https://github.com/user-attachments/assets/db54542d-fe6a-402f-b428-51bf8dc9a959" />
 
@@ -85,6 +86,19 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 
 ![nmap logs search](https://github.com/user-attachments/assets/68ad7d33-03a4-44bd-b305-3b7ba47a36ec)
 
+- <h2>Task 6: Create a Dashboard to visualize security events</h2>
+1. Create a simple dashboard that shows a count of security events over time by going to My Deployment on the web portal. Go to Analytics> Dashboard> Create dashboard> Create visualization.
+2. Select "Area", then select “Count” as the vertical field type and “Timestamp” for the horizontal field in the metrics field. Then click "Save".
 
+![7](https://github.com/user-attachments/assets/4253fa0d-e0ce-49e2-b5ea-84be1cd81c8c)
 
+ - <h2>Task 7: Create alerts for security events</h2> 
+ 1. Create an alert in the Elastic SIEM instance to detect Nmap scans.Click on Security> Alerts> Manage rules> Create new rules. Under “Define rule”, select the “Custom query” option from the dropdown menu. Under “Custom query,” set the conditions for the rule. Use Nmap_scan, then click "Continue". Then set the rule's name and descripetion under “About rule” section.
+ 2. Set the severity level for the alert, keep the defualt settings under “Schedule rule” and click “Continue”.
+ 3. Under "Actions", set the sction I want to take when the rule is triggered by selecting email notification.
+![Screenshot 2025-02-25 223157](https://github.com/user-attachments/assets/40e1d6b1-0f3d-48dd-a448-ac8094fd1eda)
+![Screenshot 2025-02-25 223542](https://github.com/user-attachments/assets/5f43f7b6-4fa7-491c-a114-3d9a63aeb6ec)
+![Screenshot 2025-02-25 224230](https://github.com/user-attachments/assets/e93e92a6-c72a-4d26-bd5d-6d1e69138fe0)
+![11](https://github.com/user-attachments/assets/e5d3753a-3659-4972-93ad-4a17b774a608)
 
+    
