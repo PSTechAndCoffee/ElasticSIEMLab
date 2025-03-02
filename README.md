@@ -42,6 +42,40 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 4. Once the deployment is ready, click continue.
 
 - <h2>Task 3: Configure the Elastic Agent on the Linux VM</h2>
-1. 
+1. To set up an agent to collect logs from your Kali VM and forward them to my Elastic SIEM instance, first I need to start from My Deployment, navigate to the Integrations page and click on Kibana main menu bar at the top left, then select “Add integrations” at the bottom.
+   
+<img width="238" alt="Screenshot 2025-03-01 at 6 10 05 PM" src="https://github.com/user-attachments/assets/8fe3114b-ed6b-4bf9-82fa-39f515a59fcf" />
+
+2. Search for “Elastic Defend” and click on it and install it. Follow the instructions on the integration page and click on "Install Elastic Agent" to install the agent on Kali linux VM that I created.
+
+<img width="1042" alt="Screenshot 2025-03-01 at 6 21 31 PM" src="https://github.com/user-attachments/assets/975cd1e8-a4b7-4463-9cee-444075910b33" />
+
+<img width="1131" alt="Kali Linux VM" src="https://github.com/user-attachments/assets/db54542d-fe6a-402f-b428-51bf8dc9a959" />
+
+3. Copy the "Linux Tar" command and paste it into the Kali terminal.
+   
+![Install agent](https://github.com/user-attachments/assets/083dc8de-dafb-4a11-ac43-e6121b0ee5ba)
+
+4. It takes a few minutes for the agent to be installed. Once that is done, the message "Agent enrollment confirmed" will show up. It will automatically start collecting and forwarding logs to the Elastic SIEM instance, and it might take a few minutes for the logs to appear in the SIEM.
+
+![3](https://github.com/user-attachments/assets/ca58df53-25cf-4795-9338-0cdae2d2fed1)
+![Elastic agent has been installed](https://github.com/user-attachments/assets/d9362fff-710f-46c2-bc96-6c9b4edb4a7e)
+
+
+5. Verify that the agent has been installed correctly by running command: sudo systemctl status elastic-agent.service
+![4](https://github.com/user-attachments/assets/090fc866-1fa5-4d1a-8df2-6305f79bbf11)
+
+- <h2>Task 4: Generate security events on the Kali VM</h2>
+1. Try to generate some security related events using Nmap tool. Open Kali terminal and run this command "sudo nmap <VM IP address>.
+   
+![5](https://github.com/user-attachments/assets/7662efdf-02a9-4b40-994e-e3f1be6fc835)
+
+2. Try creating more events by running a few more Nmap scans, (“nmap -sS <ip address>”, “nmap -sT <ip address>”, “nmap -p- <ip address>”etc..”
+![6](https://github.com/user-attachments/assets/bd71bc12-159e-410b-9c44-d3ad3daeb8b6)
+![nmap command](https://github.com/user-attachments/assets/cfd225e8-ee2f-462b-b375-d63fbf96fdca)
+
+
+
+
 
 
