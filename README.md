@@ -74,7 +74,16 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 ![6](https://github.com/user-attachments/assets/bd71bc12-159e-410b-9c44-d3ad3daeb8b6)
 ![nmap command](https://github.com/user-attachments/assets/cfd225e8-ee2f-462b-b375-d63fbf96fdca)
 
+- <h2>Task 5: Query to find the security events in the Elastic SIEM</h2>
+1. Now I have generated events in Kali VM, it is time to view logs in Elastic agent. Click on the menu icon at the top-left with the three horizontal lines and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM within the timeframe that I started creating the VM.
+   
+![obsevability logs](https://github.com/user-attachments/assets/dcd72089-fc6f-479a-b2b1-78688217d851)
+   
+![logs](https://github.com/user-attachments/assets/3a383f4f-9ded-4cd9-90a2-85ba77fef529)
 
+2. Search for all logs related to Nmap scans, enter the query: event.action:“nmap_scan”. View and explore logs.
+
+![nmap logs search](https://github.com/user-attachments/assets/68ad7d33-03a4-44bd-b305-3b7ba47a36ec)
 
 
 
