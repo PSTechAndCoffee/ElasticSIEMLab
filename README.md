@@ -24,7 +24,7 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 - Create a Dashboard to visualize security events.
 - Create alerts for security events.
 
-- <h2>Task 1:</h2>
+- <h2>Task 1: Install VMware  Workstation and create Kali Linux VM </h2>
 1. Download and install VMware Workstation from https://access.broadcom.com/default/ui/v1/signin/ on my Windows laptop. You need to create an account before downloading the software.
 2. Download Kali Linux from https://www.kali.org/get-kali/#kali-virtual-machines.
 3. Create a new VM with Kali Linux in VMware Workstation.
@@ -32,5 +32,16 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
    
 ![kali linux vm](https://github.com/user-attachments/assets/95f0c5d3-57c5-4d60-9e44-3bb76453aecf)
 
+- <h2>Task 2: Set up Elastic account</h2>
+1. Sign up for Elastic Cloud at https://cloud.elastic.co/registration. Choose the free 14-day trial option.
+2. Log in to Elastic Cloud console at https://cloud.elastic.co.
+3. Create my deployment by clicking on "Create Deployment". It went automatically to a default space. After creating it, I went back to manage my deployment and edit the solution view to Classic, then chose all features visibility: Analytics, Elasticsearch, Observability, Security, and Management.
+   
+<img width="1166" alt="Screenshot 2025-03-01 at 5 55 40 PM" src="https://github.com/user-attachments/assets/0f217728-a40b-4a17-a1c4-520c14ba06ed" />
+
+4. Once the deployment is ready, click continue.
+
+- <h2>Task 3: Configure the Elastic Agent on the Linux VM</h2>
+1. 
 
 
