@@ -14,6 +14,9 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 - <b>VMware Workstation on Windows laptop</b>
 - <b>[Elastic Cloud account](https://cloud.elastic.co/registration)</b>
 
+![SIEM LAB](https://github.com/user-attachments/assets/cb3500ed-e9b2-4c89-b038-245feb25f989)
+
+
 <h2>Tasks Overview</h2>
 
 - Install VMware  Workstation and create Kali Linux VM
