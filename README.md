@@ -67,6 +67,7 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 
 
 5. Verify that the agent has been installed correctly by running command: sudo systemctl status elastic-agent.service
+6. 
 ![4](https://github.com/user-attachments/assets/090fc866-1fa5-4d1a-8df2-6305f79bbf11)
 
 - <h2>Task 4: Generate security events on the Kali VM</h2>
