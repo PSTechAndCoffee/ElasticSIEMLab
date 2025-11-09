@@ -97,9 +97,9 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 ![7](https://github.com/user-attachments/assets/4253fa0d-e0ce-49e2-b5ea-84be1cd81c8c)
 
  - <h2>Task 7: Create alerts for security events</h2> 
- 1. Create an alert in the Elastic SIEM instance to detect Nmap scans.Click on Security> Alerts> Manage rules> Create new rules. Under “Define rule”, select the “Custom query” option from the dropdown menu. Under “Custom query,” set the conditions for the rule. Use Nmap_scan, then click "Continue". Then set the rule's name and descripetion under “About rule” section.
+ 1. Create an alert in the Elastic SIEM instance to detect Nmap scans.Click on Security> Alerts> Manage rules> Create new rules. Under “Define rule”, select the “Custom query” option from the dropdown menu. Under “Custom query,” set the conditions for the rule. Use Nmap_scan, then click "Continue". Then set the rule's name and description under “About rule” section.
  2. Set the severity level for the alert, keep the defualt settings under “Schedule rule” and click “Continue”.
- 3. Under "Actions", set the sction I want to take when the rule is triggered by selecting email notification.
+ 3. Under "Actions", set the action I want to take when the rule is triggered by selecting email notification.
 ![Screenshot 2025-02-25 223157](https://github.com/user-attachments/assets/40e1d6b1-0f3d-48dd-a448-ac8094fd1eda)
 ![Screenshot 2025-02-25 223542](https://github.com/user-attachments/assets/5f43f7b6-4fa7-491c-a114-3d9a63aeb6ec)
 ![Screenshot 2025-02-25 224230](https://github.com/user-attachments/assets/e93e92a6-c72a-4d26-bd5d-6d1e69138fe0)
