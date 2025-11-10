@@ -45,7 +45,7 @@ In this project, I set up a home lab for Elastic Stack Security Information and 
 4. Once the deployment is ready, click continue.
 
 - <h2>Task 3: Configure the Elastic Agent on the Linux VM</h2>
-1. To set up an agent to collect logs from your Kali VM and forward them to my Elastic SIEM instance, first I need to start from My Deployment, navigate to the Integrations page and click on Kibana main menu bar at the top left, then select “Add integrations” at the bottom.
+1. To set up an agent to collect logs from the Kali VM and forward them to my Elastic SIEM instance, first I need to start from My Deployment, navigate to the Integrations page and click on Kibana main menu bar at the top left, then select “Add integrations” at the bottom.
    
 <img width="238" alt="Screenshot 2025-03-01 at 6 10 05 PM" src="https://github.com/user-attachments/assets/8fe3114b-ed6b-4bf9-82fa-39f515a59fcf" />
 
